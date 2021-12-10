@@ -1,18 +1,11 @@
-public class Main
-{
+public class Main {
 
-    public static void main(String[] args)
-    {
-        int age = 18;
-        boolean canVote = true;
-        char stance = 'U';
+    public static void main(String[] args) {
+	// write your code here
+        int num1 = 25;
+        int num2 = 40;
+        double average = ( (double) num1 + (double ) num2) / 2;
+        System.out.println("The average of " + num1 + " and " + num2 + " is " + average);
 
-        System.out.println("I am " + age + " years old. It is " + canVote + " that I can vote.");
-        System.out.println("My political stance is " + stance + " for Undecided.");
-
-        /*
-        I am 18 years old. It is true that I can vote.
-        My political stance is U for Undecided.
-         */
     }
 }
